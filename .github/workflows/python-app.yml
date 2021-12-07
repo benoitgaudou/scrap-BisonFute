@@ -39,7 +39,7 @@ jobs:
         git remote rm origin
         git remote add origin https://benoitgaudou:$GH_token_public_repo@github.com/benoitgaudou/scrap-BisonFute.git
         echo "====================================="    
-        git pull https://github.com/benoitgaudou/scrap-BisonFute.git  main
+        git pull https://github.com/benoitgaudou/scrap-BisonFute.git master
         git status        
         echo "====================================="
         git add *.xml
