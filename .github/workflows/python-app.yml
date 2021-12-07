@@ -28,8 +28,8 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run scrap
       run: |        
-        ls
         python3 ScrapBisonFute.py
+        ls
     - name: Push
       run: |
         git config --global user.email "benoit.gaudou@gmail.com"
@@ -39,6 +39,7 @@ jobs:
         git remote rm origin
         git remote add origin https://benoitgaudou:$GH_token_public_repo@github.com/benoitgaudou/scrap-BisonFute.git
         git add *.xml
+        git status        
         git commit -m "new data"
         git status
         git push origin HEAD:master
