@@ -37,8 +37,8 @@ jobs:
         git config --global push.default simple
         git status
         git remote rm origin
-        git remote add origin https://benoitgaudou:$GH_token_public_repo@github.com/benoitgaudou/testGitHubAPI.git
-        git commit ./docs/assets/data/* --message "update data"
+        git remote add origin https://benoitgaudou:$GH_token_public_repo@github.com/benoitgaudou/scrap-BisonFute.git
+        git add ./*.txt --message "update data"
         git status
         git push origin HEAD:master
 
