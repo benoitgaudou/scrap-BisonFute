@@ -40,9 +40,6 @@ jobs:
         git remote add origin https://benoitgaudou:$GH_token_public_repo@github.com/benoitgaudou/scrap-BisonFute.git
         echo "====================================="        
         git status        
-        echo "====================================="        
-        git pull main
-        git status
         echo "====================================="
         git add *.xml
         git status
