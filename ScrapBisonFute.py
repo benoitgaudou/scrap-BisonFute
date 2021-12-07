@@ -33,7 +33,7 @@ os.makedirs(REP_DATA, exist_ok=True)
 request_text = request.urlopen(URL_BISON_FUTE).read()
 page = bs4.BeautifulSoup(request_text, "lxml")
 
-for link in page.findAll("a")[1:10]:
+for link in page.findAll("a"): #[1:10]:
     if hasExtension(link.get("href"), "xml"):
         fileLink = link.get("href")
         linkInfo = fileNameinfo(fileLink)
