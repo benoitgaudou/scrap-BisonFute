@@ -38,9 +38,15 @@ jobs:
         git status
         git remote rm origin
         git remote add origin https://benoitgaudou:$GH_token_public_repo@github.com/benoitgaudou/scrap-BisonFute.git
+        echo "====================================="        
+        git pull
+        git status
+        echo "====================================="
         git add *.xml
-        git status        
+        git status
+        echo "====================================="        
         git commit -m "new data"
         git status
+        echo "====================================="        
         git push origin HEAD:master
 
