@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2LogicalModel extensionName="TipiExtension" extensionVersion="0.3.FR.0.1" modelBaseVersion="2" xmlns="http://datex2.eu/schema/2/2_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<exchange>
+		<clientIdentification>TIPI</clientIdentification>
+		<supplierIdentification>
+			<country>fr</country>
+			<nationalIdentifier>TraficCaen</nationalIdentifier>
+		</supplierIdentification>
+	</exchange>
+	<payloadPublication xsi:type="MeasuredDataPublication" lang="fr">
+		<publicationTime>2022-04-27T08:01:50</publicationTime>
+		<publicationCreator>
+			<country>fr</country>
+			<nationalIdentifier>TraficCaen</nationalIdentifier>
+		</publicationCreator>
+		<measurementSiteTableReference targetClass="MeasurementSiteTable" id="TraficCaen" version="1"></measurementSiteTableReference>
+		<headerInformation>
+			<confidentiality>noRestriction</confidentiality>
+			<informationStatus>real</informationStatus>
+		</headerInformation>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MPC14.11" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-04-27T07:48:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MPC14.12" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-04-27T07:48:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+	</payloadPublication>
+</d2LogicalModel>
