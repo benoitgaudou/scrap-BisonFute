@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d2LogicalModel extensionName="TipiExtension" extensionVersion="0.3.FR.0.1" modelBaseVersion="2" xmlns="http://datex2.eu/schema/2/2_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<exchange>
+		<clientIdentification>TIPI</clientIdentification>
+		<supplierIdentification>
+			<country>fr</country>
+			<nationalIdentifier>TraficDirmc</nationalIdentifier>
+		</supplierIdentification>
+	</exchange>
+	<payloadPublication xsi:type="MeasuredDataPublication" lang="fr">
+		<publicationTime>2022-05-28T01:01:30</publicationTime>
+		<publicationCreator>
+			<country>fr</country>
+			<nationalIdentifier>TraficDirmc</nationalIdentifier>
+		</publicationCreator>
+		<measurementSiteTableReference targetClass="MeasurementSiteTable" id="TraficDirmc" version="1"></measurementSiteTableReference>
+		<headerInformation>
+			<confidentiality>noRestriction</confidentiality>
+			<informationStatus>real</informationStatus>
+		</headerInformation>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MYP63.41" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MYP63.42" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MYP63.11" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MYP63.12" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MYP63.81" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="7">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MYP63.82" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MML34.A1" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="24">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MML34.A2" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="24">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MML34.B1" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="24">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MML34.B2" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="24">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MML34.C1" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="24">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MML34.C2" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="5">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MMT34.H1" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MMT34.H2" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MMT34.J1" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MMT34.J2" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MYH43.C1" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+		<siteMeasurements>
+			<measurementSiteReference targetClass="MeasurementSiteRecord" id="MYH43.C2" version="1.0"></measurementSiteReference>
+			<measurementTimeDefault>2022-05-28T01:00:00+02:00</measurementTimeDefault>
+			<measuredValue index="0">
+				<measuredValue>
+					<basicData xsi:type="TrafficStatus">
+						<trafficStatus numberOfInputValuesUsed="0">
+							<trafficStatusValue>freeFlow</trafficStatusValue>
+						</trafficStatus>
+					</basicData>
+				</measuredValue>
+			</measuredValue>
+		</siteMeasurements>
+	</payloadPublication>
+</d2LogicalModel>
